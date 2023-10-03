@@ -1,0 +1,13 @@
+<form>
+  <label for="user-login">Login:</label>
+  <input name="user-login" id="user-login" type="text" [(ngModel)]="login">
+  <label for="user-password">Password</label>
+  <input name="user-password" id="user-password" type="password" [(ngModel)]="password">
+  <label for="user-role">Select proper role</label>
+  <select name="user-role" id="user-role" [(ngModel)]="role">
+    <option value="admin">Admin</option>
+    <option value="user">User</option>
+    <option value="banned">Banned</option>
+  </select>
+  <button (click)="addUser.emit({login, password, role})">Add</button>
+</form>
