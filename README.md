@@ -1,6 +1,9 @@
 # UserManagementMicrofrontendPoc
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
+Angular applicaton which must be used as a microfrontend external module in https://github.com/DHalupczok/angular-microfrontend-container-poc 
+This project was inspired by this article: https://www.angulararchitects.io/en/blog/the-microfrontend-revolution-part-2-module-federation-with-angular/ 
+Application can work also standalone. Serve both applications to checkout the microfrontend possibilities. 
 
 ## Development server
 
