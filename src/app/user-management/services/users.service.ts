@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import {UserManagementModule} from "../user-management.module";
 import {BehaviorSubject} from "rxjs";
 import {User} from "../models/user.model";
 
